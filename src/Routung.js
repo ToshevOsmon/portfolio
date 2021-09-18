@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Portfolio from './portfolio/Portfolio';
 import Setap from './setap/Setap';
 import About from './about/About';
+import PageNotFound from './404/PageNotFount'
 
 
 function Routing() {
@@ -19,6 +20,7 @@ function Routing() {
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/skills" exact component={Setap} />
           <Route path="/about" exact component={About} />
+          <Route component={PageNotFound} />
         </Switch>
       </Router>
 

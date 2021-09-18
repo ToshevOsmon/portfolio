@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import rasm from '../images/user.png'
+import rasm from '../images/user.jpg'
 import { Col, Container, Row } from 'reactstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -30,17 +30,21 @@ const AboutInfo = () => {
                                 <a
                                     href="https://www.youtube.com/channel/UCh34VxhyPwv1MGqm0LolYPQ/"
                                     target="_blank"
+                                    rel="noreferrer"
                                     className="icon">
                                     <YouTubeIcon />
                                 </a>
                                 <a
                                     href="https://t.me/ToshevOsmon/"
-                                    target="_blank" className="icon">
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon">
                                     <TelegramIcon />
                                 </a>
                                 <a
                                     href="https://github.com/ToshevOsmon/"
                                     target="_blank"
+                                    rel="noreferrer"
                                     className="icon">
                                     <GitHubIcon />
                                 </a>

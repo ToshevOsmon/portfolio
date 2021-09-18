@@ -2,8 +2,8 @@ import React from 'react';
 import Reveal from 'react-reveal/Reveal'
 import { Col, Container, Row } from 'reactstrap';
 import NavSec from '../home/NavSec'
-import portfolio from '../images/portfolio.PNG'
-import shop from '../images/shop.PNG'
+import portfolio from '../images/portfolio.jpg'
+import shop from '../images/shop.jpg'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
 import Footer from '../footer/Footer'
@@ -33,8 +33,14 @@ const Portfolio = () => {
                             Bu website responsivega moslangan va turli xil animatsilardan foydalanilgan.
                             Bu website ni men HTML,CSS,Bootstrap4 dan foydalnganman.</p>
                         <div className="links">
-                            <a href="https://github.com/ToshevOsmon/first-website" target="_blank" className="source">Source <GitHubIcon /> </a>
-                            <a href="https://devosportfolio.netlify.app" target="_blank" className="demo">Demo <LinkIcon /> </a>
+                            <a href="https://github.com/ToshevOsmon/first-website"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="source">Source <GitHubIcon /> </a>
+                            <a href="https://devosportfolio.netlify.app"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="demo">Demo <LinkIcon /> </a>
                         </div>
                     </Col>
                 </Row>
@@ -44,8 +50,14 @@ const Portfolio = () => {
                         <p>Shopping website reactda landing page qilingan.
                             Bu website responsive ga moslanmagan</p>
                         <div className="links">
-                            <a href="https://github.com/ToshevOsmon/shopping-website" target="_blank" className="source">Source <GitHubIcon /> </a>
-                            <a href="https://shoppinguz.netlify.app/" target="_blank" className="demo">Demo <LinkIcon /> </a>
+                            <a href="https://github.com/ToshevOsmon/shopping-website"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="source">Source <GitHubIcon /> </a>
+                            <a href="https://shoppinguz.netlify.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="demo">Demo <LinkIcon /> </a>
                         </div>
                     </Col>
 
