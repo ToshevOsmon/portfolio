@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #000 !important;
+}
+
+nav{
+    margin-top: 20px;
+    padding: 25px 80px;
+    animation: animNav 1.5s;
+    .navbar-brand{
+        font-size: 30px;
+        b{
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+    }
+    .navbar-nav{
+        margin-left: auto;
+        .nav-item{
+            margin: 20px;
+            font-size: 20px;
+            a{
+                font-weight: 500;
+                color: #949494;
+                text-decoration: none;
+                transition: 0.5s ease all;
+                -webkit-transition: 0.5s ease all;
+                &:hover{
+                    color: #fff;
+                }
+
+            }
+        }
+    }
+    .nav.fixed{
+        padding: 15px 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        width: 100%;
+        backdrop-filter: blur(10px);
+        background-color: #000000cf;
+        box-shadow: 0   5px 10px #0c0c0cde;
+    }
+}
+
+.portfolio{
+    text-align: center;
+    h2{
+        margin-top: 30px;
+        text-align: center;
+        color: #fff;
+    }
+    p{
+        padding-bottom: 20px;
+        color: rgb(248, 241, 19);
+    }
+    .container{
+        .row1{
+            padding: 30px 0 ;
+            .col-md-6{
+                color: #fff;
+                img{
+                    width: 90%;
+                    height: 250px;
+                }
+
+            }
+            .title{
+                p{
+                    text-align: left;
+                    margin-right: 150px;
+                    color: #AAAAAA;
+
+                }
+                .links{
+                    text-align: left;
+                    .source{
+                        padding: 8px 15px;
+                        text-decoration: none;
+                        background: #AAAAAA;
+                        color: #fff;
+                        margin: 0;
+                        margin-right: 20px;
+                        border-radius: 4px;
+                    }
+                    .demo{
+                        border-radius: 4px;
+                        padding: 8px 15px;
+                        text-decoration: none;
+                        background-color: #FAFF00;
+                        color: #0A0A0A;
+
+                    }
+                }
+                
+
+
+            }
+        }
+        .row2{
+            padding: 50px 0 ;
+            margin-bottom: 30px;
+            .col-md-6{
+                color: #fff;
+                img{
+                    width: 90%;
+                    height: 250px;
+                }
+
+            }
+            .title{
+                p{
+                    text-align: left;
+                    margin-right: 150px;
+                    color: #AAAAAA;
+
+                }
+                .links{
+                    text-align: left;
+                    .source{
+                        padding: 8px 15px;
+                        text-decoration: none;
+                        background: #AAAAAA;
+                        color: #fff;
+                        margin: 0;
+                        margin-right: 20px;
+                        border-radius: 4px;
+                    }
+                    .demo{
+                        border-radius: 4px;
+                        padding: 8px 15px;
+                        text-decoration: none;
+                        background-color: #FAFF00;
+                        color: #0A0A0A;
+
+                    }
+                }
+                
+
+
+            }
+        }
+    }
+}
+
+.aboutInfo{
+    margin: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+
+    .container{
+        .row{
+            .col-md-6{
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+.slide1{
+    padding-top: 50px;
+    h1{
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    p{
+        color: rgb(199, 199, 199);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        margin-right: 100px;
+    }
+    .homeButtons{
+        .linkAbout{
+            text-decoration: none;
+            background-color: #2B2B2B;
+            padding: 10px 20px;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 5px;
+            text-align: center;
+            margin-right:10px ;
+        }
+        .linkPortfilo{
+            text-decoration: none;
+            background-color: #FAFF00;
+            ;
+            padding: 10px 20px;
+            color:  #0A0A0A;
+            font-size: 18px;
+            border-radius: 5px;
+            text-align: center;
+            margin-right:10px ;
+        }
+    }
+    .icons{
+        margin-top: 20px;
+        align-items: center;
+        .icon{
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 30px;
+
+           color: #fff;
+        }
+    }
+}
+
+
+                .slide2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    margin-top: 15px;
+                    width: 85%;
+                 
+                }
+                }
+
+            }
+        }
+    }
+}
+
+.setap{
+    padding: 20px 0;
+    text-align: center;
+    h2{
+        margin-top: 30px;
+        color: #fff;
+    }
+    p{
+  
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    img{
+        padding-top: 20px;
+        width: 300px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .container{
+        .row{
+            margin-top: 30px;
+            .col-md-4{
+                padding: 20px 0;
+                display: flex;
+                justify-content: center;
+                .front{
+                    list-style-type: none;
+                    text-align: left;
+                    li{
+                        color: #AAAAAA;
+                    }
+                }
+                .android{
+                    list-style-type: none;
+                    text-align: left;
+                    li{
+                        color: #AAAAAA;
+                    }
+                }
+                .set{
+                    list-style-type: none;
+                    text-align: left;
+                    li{
+                        color: #AAAAAA;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about{
+    padding: 20px 0;
+   text-align: center;
+    h2{
+        color: #fff;
+    }
+    p{
+        color: #FAFF00;
+    }
+    .container{
+        padding-top: 30px;
+        .row{
+            .col-md-6{
+                img{
+                    width: 100%;
+                }
+
+            }
+            .info{
+                h3{
+                    color: #FAFF00;
+                    margin-bottom: 20px;
+
+                }
+                p{
+                    text-align: left;
+                    margin-left: 20px;
+                    color: #AAAAAA;
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    padding: 20px 0;
+    border-top: 1px solid #fff;
+    text-align: center;
+    .text{
+        color: #fff;
+        font-size: 18px;
+    }
+}
+
+.contact{
+    padding: 50px 0;
+    .container{
+        .row{
+            .col-md-6{
+                h3{
+                    color: #FAFF00;
+                }
+                 p{
+                        color: #fff;
+                    }
+                ul{
+                    list-style-type: none;
+                    text-align: left;
+                   
+                    li{
+                        color: #fff;
+                        a{
+                            text-decoration: none;
+                            color: rgb(243, 247, 0);
+                        }
+                    }
+                }
+            }
+            .maps{
+                 .map{
+                   width: 500px;
+                   height: 250px;
+                       
+                }
+             }
+          
+        }
+    }
+}
+
