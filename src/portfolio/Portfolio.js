@@ -33,7 +33,7 @@ const Portfolio = () => {
                             Bu website responsivega moslangan va turli xil animatsilardan foydalanilgan.
                             Bu website ni men HTML,CSS,Bootstrap4 dan foydalnganman.</p>
                         <div className="links">
-                            <a href="#" className="source">Source <GitHubIcon /> </a>
+                            <a href="https://github.com/ToshevOsmon/first-website" target="_blank" className="source">Source <GitHubIcon /> </a>
                             <a href="https://devosportfolio.netlify.app" target="_blank" className="demo">Demo <LinkIcon /> </a>
                         </div>
                     </Col>
@@ -44,7 +44,7 @@ const Portfolio = () => {
                         <p>Shopping website reactda landing page qilingan.
                             Bu website responsive ga moslanmagan</p>
                         <div className="links">
-                            <a href="#" className="source">Source <GitHubIcon /> </a>
+                            <a href="https://github.com/ToshevOsmon/shopping-website" target="_blank" className="source">Source <GitHubIcon /> </a>
                             <a href="https://shoppinguz.netlify.app/" target="_blank" className="demo">Demo <LinkIcon /> </a>
                         </div>
                     </Col>
